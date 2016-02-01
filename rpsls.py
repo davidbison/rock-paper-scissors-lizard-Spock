@@ -14,11 +14,18 @@
 # helper functions
 
 def name_to_number(name):
-    # delete the following pass statement and fill in your code below
-    pass
-
-    # convert name to number using if/elif/else
-    # don't forget to return the result!
+    if name == "rock":
+        return 0
+    elif name == "Spock":
+        return 1
+    elif name == "paper":
+        return 2
+    elif name == "lizard":
+        return 3
+    elif name == "scissors":
+        return 4
+    else:
+        print "Invalid throw: ", name
 
 
 def number_to_name(number):
