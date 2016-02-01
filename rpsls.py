@@ -1,19 +1,14 @@
-# Rock-paper-scissors-lizard-Spock template
+# Rock-paper-scissors-lizard-Spock
 
+
+# Modules
 import random
-# The key idea of this program is to equate the strings
-# "rock", "paper", "scissors", "lizard", "Spock" to numbers
-# as follows:
-#
-# 0 - rock
-# 1 - Spock
-# 2 - paper
-# 3 - lizard
-# 4 - scissors
 
-# helper functions
 
+
+# Helper methods
 def name_to_number(name):
+    # Converts rpsls throw to number
     if name == "rock":
         return 0
     elif name == "Spock":
@@ -28,7 +23,9 @@ def name_to_number(name):
         print "Invalid throw: ", name
 
 
+
 def number_to_name(number):
+    # Converts number to a rpsls throw
     if number == 0:
         return "rock"
     elif number == 1:
@@ -43,7 +40,16 @@ def number_to_name(number):
         print "Invalid number: ", number
 
 
+
+# Game logic
 def rpsls(player_choice):
+    """
+    Rock-paper-scissors-lizard-Spock method.
+    Prints player and winner rpsls object to the console,
+    calls on two helper methods and uses control flow
+    to compare choices, and prints result to the console.
+    Computer choice is calculated with random module.
+    """
     print
 
     print "Player chooses " + player_choice
@@ -66,11 +72,10 @@ def rpsls(player_choice):
         print "Player wins!"
 
 
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
+
+# Driver Code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
-
-# always remember to check your completed program against the grading rubric
