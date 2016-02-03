@@ -19,7 +19,7 @@ Due to the fact that a tie happens around 1/3 of the time, several variants of R
 + Spock vaporizes rock
 + And as it always has been, rock crushes scissors
 
-This program is an exercise in Python, writing functions, and event-driven programming with conditionals, logic, and comparisons. It was submitted as a mini-project to Rice University's online course, Fundamentals of Computing Specialization, offered through [https://www.coursera.org/specializations/fundamentalscomputing2](Coursera).
+This program is an exercise in functions and event-driven programming in Python. It was submitted as a mini-project to Rice University's online course, Fundamentals of Computing Specialization, offered through [https://www.coursera.org/specializations/fundamentalscomputing2](Coursera).
 
 ___
 
