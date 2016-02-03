@@ -6,7 +6,7 @@ Rock-paper-scissors is a hand game that is played by two people. The players cou
 + Scissors cuts paper
 + Paper covers rock
 
-Due to the fact that a tie happens around 1/3 of the time, several variants of Rock-paper-scissors exist that include more choices to make ties less likely. Rock-paper-scissors-lizard-Spock (RPSLS) is one such variant that allows five choices. Each choice wins against two other choices, loses against two other choices, and ties against itself.
+Due to the fact that a tie happens around 1/3 of the time, several variants of Rock-paper-scissors exist that include more choices to make ties less likely. Rock-paper-scissors-lizard-Spock (RPSLS) is one such variant that allows five choices. Each choice wins against two other choices, loses against two other choices, and ties against itself. The winner is determined by the rules:
 
 + Scissors cuts paper
 + Paper covers rock
